@@ -1,0 +1,18 @@
+[0;1;32m●[0m php8.3-fpm.service - The PHP 8.3 FastCGI Process Manager
+     Loaded: loaded (]8;;file://mockups-panel/usr/lib/systemd/system/php8.3-fpm.service/usr/lib/systemd/system/php8.3-fpm.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Sat 2025-02-15 06:46:33 UTC; 4 days ago
+       Docs: ]8;;man:php-fpm8.3(8)man:php-fpm8.3(8)]8;;
+    Process: 487755 ExecStartPost=/usr/lib/php/php-fpm-socket-helper install /run/php/php-fpm.sock /etc/php/8.3/fpm/pool.d/www.conf 83 (code=exited, status=0/SUCCESS)
+   Main PID: 487743 (php-fpm8.3)
+     Status: "[0;1;36mProcesses active: 0, idle: 3, Requests: 6442, slow: 0, Traffic: 0req/sec[0m"
+      Tasks: 4 (limit: 9260)
+     Memory: 44.2M (peak: 48.5M)
+        CPU: 3min 56.780s
+     CGroup: /system.slice/php8.3-fpm.service
+             ├─[0;38;5;245m487743 "php-fpm: master process (/etc/php/8.3/fpm/php-fpm.conf)"[0m
+             ├─[0;38;5;245m487754 "php-fpm: pool www"[0m
+             ├─[0;38;5;245m501869 "php-fpm: pool www"[0m
+             └─[0;38;5;245m541396 "php-fpm: pool www"[0m
+
+Feb 15 06:46:33 mockups-panel systemd[1]: Starting php8.3-fpm.service - The PHP 8.3 FastCGI Process Manager...
+Feb 15 06:46:33 mockups-panel systemd[1]: Started php8.3-fpm.service - The PHP 8.3 FastCGI Process Manager.

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+}
+
+[x-cloak] {
+    display: none !important;
+}
+
+h1,
+h2,
+h3 {
+    @apply font-semibold;
+}
+
+.invoice-price {
+    font-family: "Inconsolata", serif;
+    @apply font-medium text-[17px];
+}
+
+table {
+    @apply w-full;
+}
+
+table tr {
+    @apply border-b border-gray-200 py-2;
+}
+
+table tr th,
+td {
+    @apply py-[7px];
+}
