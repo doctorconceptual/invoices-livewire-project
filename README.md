@@ -36,6 +36,7 @@ Livewire comes with AlpineJS already integrated, so we used it without any addit
 * For the dropdown, hovering over the three dots also reveals the download icon, as shown in the design.
 * Clicking the three dots opens the dropdown, and clicking elsewhere closes it (handled with AlpineJS).
 * The dropdown includes a small notch, matching the design.
+* The top search bar functions but only searches by Invoice Number.
 
 ### Responsive
 * The design is not responsive; otherwise, we would have to remove columns to fit it in the mobile view.
